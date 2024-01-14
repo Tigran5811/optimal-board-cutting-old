@@ -17,7 +17,6 @@ export const Boards: React.FC<RootState> = ({ boards }) => {
   }, [boards]);
 
   const packedResults = packRectanglesInAreas(boardsFilter, 3630, 1830);
-  console.log(packedResults);
 
   return (
     <div className={styles.container}>
